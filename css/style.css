@@ -1,0 +1,235 @@
+@font-face {
+    font-family: ar-font;
+    src: url(../fonts/Cairo/Cairo-SemiBold.ttf);
+}
+
+body {
+    direction: rtl;
+    font-family: ar-font;
+}
+
+header {
+    background-image: url(../img/header-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+header .brand {
+    padding: 20px 10px;
+    margin: 80px auto 50px;
+    border-bottom: 5px solid #474c55;
+    display: inline-block;
+}
+
+header .page-heading h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 75PX;
+}
+
+header .page-heading p {
+    color: #acacac;
+    font-size: 18px;
+    line-height: 25px;
+    width: 40%;
+    margin: 0 auto;
+}
+
+header .counter .countdown-amount {
+    font-size: 60px;
+    font-weight: bold;
+    color: #ffce00;
+    display: block;
+}
+
+header .counter .countdown-period {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+    display: block;
+}
+
+header .counter .countdown-section {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+header .counter {
+    margin: 60px auto;
+    padding: 30px;
+}
+
+header .send-notification p {
+    font-size: 18px;
+    color: #fff;
+}
+
+header .send-notification .input-group input, footer .input-group {
+    border-radius: 0;
+    font-size: 18px;
+    font-family: ar-font;
+    color: black;
+    border-width: 2px;
+    border-color: #e6e6e6;
+}
+
+header .send-notification .input-group-btn, footer .input-group-btn {
+    border-radius: 0;
+    background-color: #ffce00;
+    padding: 0.5rem 0.3rem;
+}
+
+footer .input-group-btn {
+    background-color: #939393;
+    padding-bottom: 0;
+}
+
+header .send-notification .input-group, footer .input-group {
+    width: 30%;
+    margin: 0 auto;
+}
+
+header .send-notification .input-group .alert, footer .alert {
+    position: absolute;
+    top: 110%;
+    left: 0;
+    right: 0;
+    display: none;
+}
+
+header .send-notification .input-group input {
+    height: auto;
+}
+
+section.features h2 {
+    margin-bottom: 50px;
+    font-size: 45px;
+    color: #555;
+}
+
+section.features {
+    padding: 100px 0;
+}
+
+section.features .media {
+    border: 4px solid #fafafa;
+    padding: 40px 10px;
+    margin-bottom: 20px;
+    position: relative;
+    max-height: 190px;
+}
+
+section.features .media .media-body h5 {
+    font-size: 24px;
+    color: #555;
+}
+
+section.features .media .media-body p {
+    font-size: 15px;
+    color: #a1a1a1;
+    line-height: 25px;
+}
+
+section.features {
+    text-align: right;
+}
+
+footer {
+    background-image: url(../img/footer-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+footer .top-footer .overlay {
+    background-color: rgba(255, 204, 0, 0.7);
+    padding: 60px 0;
+}
+
+footer .top-footer .overlay h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+footer .contact {
+    background-color: rgba(28, 28, 28, 0.7);
+    padding: 60px 0 10px;
+    color: #fff;
+}
+
+footer .contact h3 {
+    font-size: 30px;
+    margin: 0 auto 30px;
+}
+
+footer .contact ul li a {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.14);
+    color: #fff;
+}
+
+footer .contact ul li {
+    margin: 10px 10px;
+}
+
+footer .contact ul li a.facebook:hover {
+    background-color: #3b5999;
+}
+
+footer .contact ul li a.twitter:hover {
+    background-color: #55acee;
+}
+
+footer .contact ul li a.linkedin:hover {
+    background-color: #0077B5;
+}
+
+footer .contact ul li a.instagram:hover {
+    background-color: #e4405f;
+}
+
+footer .contact hr {
+    width: 25%;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 50px;
+}
+
+footer .contact p a {
+    color: #b4b4b4;
+}
+
+footer .contact p a i {
+    color: #ffce00;
+    margin-left: 5px;
+}
+
+footer .contact ul li a {
+    -webkit-transition: all 0.3s ease;
+    Transition: all 0.3s ease;
+}
+
+/*MEDIA QUERY*/
+@media (max-width: 767px) {
+
+    header .page-heading h1 {
+        font-size: 48px;
+    }
+}
+
+@media (max-width: 575px) {
+    header .page-heading h1 {
+        font-size: 40px;
+    }
+    header .page-heading p {
+        width: 65%;
+    }
+    header .send-notification .input-group, footer .input-group {
+        width: 45%;
+    }
+    footer .top-footer .overlay h3 {
+        font-size: 20px;
+    }
+}
